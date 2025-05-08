@@ -1,0 +1,6 @@
+train: C:\Users\aravi\Documents\Projects\yolo-codes\data\traffic_light\train
+val: C:\Users\aravi\Documents\Projects\yolo-codes\data\traffic_light\valid
+test: C:\Users\aravi\Documents\Projects\yolo-codes\data\traffic_light\test
+
+nc: 3
+names: ['Green', 'Yellow', 'Red']
