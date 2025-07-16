@@ -10,9 +10,9 @@ if __name__ == '__main__':
     # Train the model on the COCO8 dataset for 100 epochs
     train_results = model.train(
                                     data="dataset_custom.yaml",  # Path to dataset configuration file
-                                    epochs=100,  # Number of training epochs
+                                    epochs=25,  # Number of training epochs
                                     batch=64,
-                                    imgsz=640,  # Image size for training
+                                    imgsz=480,  # Image size for training
                                     workers=0,
                                     device="0",  # Device to run on (e.g., 'cpu', 0, [0,1,2,3])
     )
